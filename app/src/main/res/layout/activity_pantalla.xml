@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginRight="248dp"
+        android:layout_marginBottom="604dp"
+        android:text="Dolares"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="183dp"
+        android:layout_marginRight="183dp"
+        android:layout_marginBottom="229dp">
+
+        <RadioButton
+            android:id="@+id/rbDolarAeuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dolar a Euro"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rbEuroAdolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Euro a Dolar"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginRight="241dp"
+        android:layout_marginBottom="439dp"
+        android:text="Euro"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginRight="193dp"
+        android:layout_marginBottom="241dp"
+        android:text="Cambio a..."
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtDolares"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="543dp"
+        android:hint="Ingrese valor"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edtEuros"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginBottom="370dp"
+        android:hint="Ingrese valor"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etCambio"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginBottom="166dp"
+        android:hint="Resultado"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="546dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:layout_marginBottom="137dp"
+        android:text="Convertir"
+        android:textSize="24sp" />
+</RelativeLayout>
